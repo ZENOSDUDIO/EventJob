@@ -1,0 +1,34 @@
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.dll
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.pdb
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\obj\Debug\ResolveAssemblyReference.cache
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.dll
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.pdb
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\bin\Debug\Common.Logging.dll
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\bin\Debug\Nullables.dll
+D:\rhythm_sun\项目\质控\ZK0918\web\QCMonitorFramework\bin\Debug\Quartz.dll
+D:\ZK1018new\web\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.dll
+D:\ZK1018new\web\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.pdb
+D:\ZK1018new\web\web\QCMonitorFramework\bin\Debug\Common.Logging.dll
+D:\ZK1018new\web\web\QCMonitorFramework\bin\Debug\Nullables.dll
+D:\ZK1018new\web\web\QCMonitorFramework\bin\Debug\Quartz.dll
+D:\ZK1018new\web\web\QCMonitorFramework\obj\Debug\ResolveAssemblyReference.cache
+D:\ZK1018new\web\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.dll
+D:\ZK1018new\web\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.pdb
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.dll
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.pdb
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\bin\Debug\Common.Logging.dll
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\bin\Debug\Nullables.dll
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\bin\Debug\Quartz.dll
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\obj\Debug\ResolveAssemblyReference.cache
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.dll
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.pdb
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\bin\Debug\SoapXML.dll
+F:\Zeno Deployment\质控安装包1018\web\web\QCMonitorFramework\bin\Debug\SoapXML.pdb
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.dll
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.pdb
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\bin\Debug\QCMonitorFramework.tlb
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\Debug\ResolveAssemblyReference.cache
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\Debug\Interop.EMPPLib.dll
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.csproj.ResolveComReference.cache
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.dll
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\Debug\QCMonitorFramework.pdb

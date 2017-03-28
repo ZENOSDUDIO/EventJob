@@ -1,0 +1,3 @@
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\x86\Debug\Interop.EMPPLib.dll
+F:\Zeno Deployment\市东质控项目\src20121113\web\QCMonitorFramework\obj\x86\Debug\QCMonitorFramework.csproj.ResolveComReference.cache

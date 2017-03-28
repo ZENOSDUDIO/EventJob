@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3992BCD-BDDD-4C98-83E6-2B94D29B3244}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QCMonitor.Framework</RootNamespace>
+    <AssemblyName>QCMonitorFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\QCMonitorFramework.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\QCMonitorFramework.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy, Version=1.0.4.18998, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Caches.SysCache, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=6876f2ea66c9f443, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\NHibernate.Caches.SysCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq, Version=1.13.41.2, Culture=neutral, PublicKeyToken=cab60358ab4081ea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Framework\DBService\Hibernate\HibernateAttributes.cs" />
+    <Compile Include="Framework\DBService\Hibernate\HibernateConfigGenerator.cs" />
+    <Compile Include="Framework\DBService\Hibernate\NhibernateSessionAdapter.cs" />
+    <Compile Include="Framework\DBService\Hibernate\NhibernateSessionFactory.cs" />
+    <Compile Include="Framework\DBService\QCDBServiceFactory.cs" />
+    <Compile Include="Framework\DBService\SqlClient\ITableInit.cs" />
+    <Compile Include="Framework\DBService\SqlClient\QCDBClient.cs" />
+    <Compile Include="Framework\DBService\SqlClient\SqlClientAttribute.cs" />
+    <Compile Include="Framework\DBService\SqlClient\SQLEntry.cs" />
+    <Compile Include="Framework\Domain\DataEntry.cs" />
+    <Compile Include="Framework\Domain\Entity.cs" />
+    <Compile Include="Framework\Domain\SettingEntry.cs" />
+    <Compile Include="Framework\Event\AutoExpireStreamingEvent.cs" />
+    <Compile Include="Framework\Event\CrontabEvent.cs" />
+    <Compile Include="Framework\Event\DBCrontab\Domain\DBCrontabEntry.cs" />
+    <Compile Include="Framework\Event\DBCrontab\Repository\DBCrontabEntryRepository.cs" />
+    <Compile Include="Framework\Event\DBCrontab\Event\DBCrontabEvent.cs" />
+    <Compile Include="Framework\Event\ScheduleEvent.cs" />
+    <Compile Include="Framework\Event\StreamingEvent.cs" />
+    <Compile Include="Framework\Message\Device\Exceptions\EmailDeviceException.cs" />
+    <Compile Include="Framework\Message\Device\Exceptions\InitDeviceException.cs" />
+    <Compile Include="Framework\Message\Device\Exceptions\MessageException.cs" />
+    <Compile Include="Framework\Message\Device\Exceptions\RegisterDeviceException.cs" />
+    <Compile Include="Framework\Message\Device\Exceptions\SendMessageException.cs" />
+    <Compile Include="Framework\Message\Device\Factory\EmailDeviceFactory.cs" />
+    <Compile Include="Framework\Message\Device\Factory\SMSDeviceFactory.cs" />
+    <Compile Include="Framework\Message\Device\IEmailDevice.cs" />
+    <Compile Include="Framework\Message\Device\ISMSDevice.cs" />
+    <Compile Include="Framework\Message\Device\Listener\ISMSListener.cs" />
+    <Compile Include="Framework\Message\Impl\EMPPOptions.cs" />
+    <Compile Include="Framework\Message\Impl\EMPPSMSManager.cs" />
+    <Compile Include="Framework\Message\Impl\SMS.cs" />
+    <Compile Include="Framework\QCEvent.cs" />
+    <Compile Include="Framework\QCEventJob.cs" />
+    <Compile Include="Framework\QCService.cs" />
+    <Compile Include="Framework\Repository\BlobStore.cs" />
+    <Compile Include="Framework\Repository\DataEntryRepository.cs" />
+    <Compile Include="Framework\Repository\IRepository.cs" />
+    <Compile Include="Framework\Repository\RepositoryImpl.cs" />
+    <Compile Include="Framework\Service\MultiThreadService.cs" />
+    <Compile Include="Framework\Service\SingleThreadService.cs" />
+    <Compile Include="Framework\Util\Logging\AbstractQCLogger.cs" />
+    <Compile Include="Framework\Util\Logging\QCDBLogger.cs" />
+    <Compile Include="Framework\Util\Logging\QCFileLogger.cs" />
+    <Compile Include="Framework\Util\Logging\QCLogger.cs" />
+    <Compile Include="Framework\Util\Logging\QCLoggerFactory.cs" />
+    <Compile Include="Framework\Util\ModuleUtil.cs" />
+    <Compile Include="Framework\Util\QCConsoleLogger.cs" />
+    <Compile Include="Framework\Util\QCOptions.cs" />
+    <Compile Include="Framework\Util\QCTimeSpan.cs" />
+    <Compile Include="Framework\Util\SoapFormatterHelper.cs" />
+    <Compile Include="Framework\Util\UserRoleUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="EMPPLib">
+      <Guid>{C777EB8F-8635-434C-B506-490D672F39FA}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
